@@ -22,7 +22,7 @@ module.exports = {
 
 in file package.json
 
-```javascript
+```java
  "scripts": {
     "compile": "tsc",
     "test": "jest"
