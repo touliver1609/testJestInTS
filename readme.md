@@ -1,4 +1,4 @@
-first
+Install jest, typescript, ts-jest (write jest in typescript)
 
 ```javascript
 npm install typescript jest ts-jest @types/jest
@@ -7,7 +7,7 @@ tsc --init
 jest --init
 ```
 
-in file jest.config.js
+Edit file jest.config.js
 
 ```javascript
 module.exports = {
@@ -20,11 +20,17 @@ module.exports = {
 };
 ```
 
-in file package.json
+Edit file package.json
 
-```java
+```javascript
  "scripts": {
     "compile": "tsc",
     "test": "jest"
   }
+```
+
+Run
+
+```javascript
+npm run test
 ```
